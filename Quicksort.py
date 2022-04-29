@@ -1,7 +1,6 @@
 # This Python program will use the Quick sort algorthim to sort a list of data
 # Ronnie Sparks
 # This is written for Python 3 on 4/26/2022
-# You may use any 
 
 def quick_sort(sequence):
     length = len(sequence)
@@ -22,5 +21,5 @@ def quick_sort(sequence):
             
     return quick_sort(items_lower) + [pivot] + quick_sort(items_greater)
 
-print(quick_sort([6,3,0,1,7,5,9,2,8]))
+print(quick_sort([6,3,0,1,7,5,9,2,8])) # this will print the sorted list using quick sort
             
