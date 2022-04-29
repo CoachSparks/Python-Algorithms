@@ -1,3 +1,7 @@
+# This Python program will use the merge sort algorthim to sort a list of data
+# Ronnie Sparks
+# This is written for Python 3 on 4/26/2022
+
 def mergeSort(myList):
     if len(myList) > 1:
         mid = len(myList) // 2
